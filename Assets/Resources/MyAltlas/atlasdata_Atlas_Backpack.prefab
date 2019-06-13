@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1101797851634096}
+  m_IsPrefabAsset: 1
+--- !u!1 &1101797851634096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933049781885600}
+  - component: {fileID: 114980464828814548}
+  m_Layer: 0
+  m_Name: atlasdata_Atlas_Backpack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933049781885600
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101797851634096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114980464828814548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101797851634096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a963fcdd5950d064393ae013a110950b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AtlasTexture: {fileID: 2800000, guid: eda084176b34fcf48b127a16848d73cc, type: 3}
+  TextureNames:
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/0.jpg
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/bluePotion02.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/BattleAxe.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/DragonGrainRing.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/2.jpg
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/boot02.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/cloth01.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/boot01.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/4.jpg
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/bluePotion01.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/5.jpg
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/redPotion01.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/FalconRing.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/Guardian.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/ClaymoreGlow.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/cloth02.png
+  - Assets/Resources/Textrure/UI_SmallScales/BackPicks/6.jpg
+  UVs:
+  - serializedVersion: 2
+    x: 0.515625
+    y: 0
+    width: 0.13671875
+    height: 0.13671875
+  - serializedVersion: 2
+    x: 0
+    y: 0.5390625
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.25
+    height: 0.25
+  - serializedVersion: 2
+    x: 0.14257812
+    y: 0.7890625
+    width: 0.109375
+    height: 0.109375
+  - serializedVersion: 2
+    x: 0.66015625
+    y: 0
+    width: 0.13476562
+    height: 0.13671875
+  - serializedVersion: 2
+    x: 0
+    y: 0.671875
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.8046875
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.14257812
+    y: 0.2578125
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.8027344
+    y: 0
+    width: 0.1328125
+    height: 0.13476562
+  - serializedVersion: 2
+    x: 0.14257812
+    y: 0.390625
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.3984375
+    width: 0.1328125
+    height: 0.1328125
+  - serializedVersion: 2
+    x: 0.14257812
+    y: 0.5234375
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.27539062
+    y: 0.2578125
+    width: 0.109375
+    height: 0.109375
+  - serializedVersion: 2
+    x: 0.39257812
+    y: 0.2578125
+    width: 0.109375
+    height: 0.109375
+  - serializedVersion: 2
+    x: 0.2578125
+    y: 0
+    width: 0.25
+    height: 0.25
+  - serializedVersion: 2
+    x: 0.14257812
+    y: 0.65625
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.2578125
+    width: 0.13476562
+    height: 0.1328125
