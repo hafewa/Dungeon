@@ -17,7 +17,7 @@ public class View_LoadingScenes : MonoBehaviour
     {
         #region 测试代码
         ////测试Log日志系统
-        //ConfigManager config = new ConfigManager(KernalParameter.GetLogPath(), KernalParameter.GetLogRootNodeName());
+        ConfigManager config = new ConfigManager(KernalParameter.GetLogPath(), KernalParameter.GetLogRootNodeName());
         ////string strLogPath = config.AppSetting["LogPath"];
         ////string strLogState = config.AppSetting["LogState"];
         ////string strLogMaxCapcity = config.AppSetting["LogMaxCapacity"];
@@ -39,10 +39,10 @@ public class View_LoadingScenes : MonoBehaviour
         ////测试XML解析程序
         ////参数赋值
         //Log.ClearLogFileAndBufferData();
-        //XMLDialogDataAnalysisManager.GetInstance().SetXMLPathAndRootNodeName(KernalParameter.GetDialogPath(), KernalParameter.GetDialogRootNodeName());
-        //yield return new WaitForSeconds(0.3f);
+        XMLDialogDataAnalysisManager.GetInstance().SetXMLPathAndRootNodeName(KernalParameter.GetDialogPath(), KernalParameter.GetDialogRootNodeName());
+        yield return new WaitForSeconds(0.3f);
         ////得到XML中所有的数值
-        //List<DialogDataFormat> liDialogsDataArray = XMLDialogDataAnalysisManager.GetInstance().GetAllXMLDataArray();
+        List<DialogDataFormat> liDialogsDataArray = XMLDialogDataAnalysisManager.GetInstance().GetAllXMLDataArray();
         ////foreach (DialogDataFormat data in liDialogsDataArray)
         ////{
         ////    Log.Write("");
@@ -55,16 +55,16 @@ public class View_LoadingScenes : MonoBehaviour
         ////}
         ////Log.SynLogArrayToFile();
 
-        ////测试给对话管理器加载数据
-        //bool bResult = DialogDataMgr.GetInstance().LoadAllDialogData(liDialogsDataArray);
-        //if (!bResult)
-        //{
-        //    //如果加载失败，显示失败信息在Log日志中
-        //    Log.Write(GetType() + "对话数据管理器加载数据失败", Log.Level.High);
-        //}
+        //测试给对话管理器加载数据
+        bool bResult = DialogDataMgr.GetInstance().LoadAllDialogData(liDialogsDataArray);
+        if (!bResult)
+        {
+           //如果加载失败，显示失败信息在Log日志中
+           Log.Write(GetType() + "对话数据管理器加载数据失败", Log.Level.High);
+        }
 
         ////进入指定的关卡
-        //GlobalParameterManager.NextScensName = ScenesEnum.LevelOne;     //测试进入对话测试场景
+        GlobalParameterManager.NextScensName = ScenesEnum.MainCityScene;     //测试进入对话测试场景
         #endregion
 
         yield return new WaitForSeconds(GlobalParameter.INTERVAL_TIME_1F);

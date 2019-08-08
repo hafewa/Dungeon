@@ -19,6 +19,7 @@ public class ConvertEnumToString
         _DicScenesEnumLib.Add(ScenesEnum.LoadingScenes, "LoadingScene");
         _DicScenesEnumLib.Add(ScenesEnum.LevelOne,"03_LevelOneScene");
         _DicScenesEnumLib.Add(ScenesEnum.LevelTow,"05_LevelTowScene");
+        _DicScenesEnumLib.Add(ScenesEnum.MainCityScene,"04_MainCity");
         _DicScenesEnumLib.Add(ScenesEnum.TestDialogScene, "TestDialogScene");
     }
 

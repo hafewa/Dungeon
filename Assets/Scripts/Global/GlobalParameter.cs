@@ -21,7 +21,8 @@ public enum ScenesEnum
     LoginScenes,
     LevelOne,
     LevelTow,
-    BaseScenes
+    BaseScenes,
+    MainCityScene
 }
 
 //角色的类型

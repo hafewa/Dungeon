@@ -23,7 +23,7 @@ public class View_PlayerInfoReseponse : MonoBehaviour
 
     void Start()
     {
-
+        DisplayET();
     }
 
 

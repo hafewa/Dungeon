@@ -96,6 +96,27 @@ public class PlayerExternalDataProxy :PlayerExternalData {
     {
         base.Gold += Mathf.Abs(goldNum);
     }
+    
+    /// <summary>
+    /// 减少金币
+    /// </summary>
+    /// <param name="goldNum">数量</param>
+    /// <returns></returns>
+    public bool DecreaseGolds(int goldNum)
+    {
+        bool bResult = false;       //处理结果
+        if (GetCurrentGold() - Mathf.Abs(goldNum) >= 0)
+        {
+            base.Gold -= Mathf.Abs(goldNum);
+            bResult = true;
+        }
+        else
+        {
+            bResult = false;
+        }
+
+        return bResult;
+    }
 
     //得到当前金币
     public int GetCurrentGold()
@@ -111,6 +132,28 @@ public class PlayerExternalDataProxy :PlayerExternalData {
     public void AddDiamonds(int diamondsNum)
     {
         base.Diamonds += Mathf.Abs(diamondsNum);
+    }
+
+    /// <summary>
+    /// 减少钻石
+    /// </summary>
+    /// <param name="diamonNum">数量</param>
+    /// <returns>true：处理成功</returns>
+    public bool DecreaseDiamonds(int diamonNum)
+    {
+        bool bResult = false;       //处理结果
+        //购买后的钻石余额不能为负数
+        if (GetCurrentDiamonds() - Mathf.Abs(diamonNum)>=0)
+        {
+            base.Diamonds -= Mathf.Abs(diamonNum);
+            bResult = true;
+        }
+        else
+        {
+            bResult = false;
+        }
+
+        return bResult;
     }
 
     //得到当前钻石

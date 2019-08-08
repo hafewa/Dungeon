@@ -1,0 +1,339 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-nostdlib
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\Managed/Unity.Locator.dll"
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/PerformanceTesting/UnityEngine.PerformanceTesting.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.2.20f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/Flower/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/Flower/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.2.20f1\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_20
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+"Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyButtonTemplate.cs"
+"Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyJoystickTemplate.cs"
+"Assets/EasyTouch/Plugins/_C#-Event-Template/C_EasyTouchTemplate.cs"
+Assets/EasyTouch/Plugins/EasyButton.cs
+Assets/EasyTouch/Plugins/EasyJoystick.cs
+Assets/EasyTouch/Plugins/EasyTouch.cs
+Assets/EasyTouch/Plugins/EasyTouchInput.cs
+Assets/EasyTouch/Plugins/Finger.cs
+Assets/EasyTouch/Plugins/Gesture.cs
+Assets/EasyTouch/Plugins/MonoSingleton.cs
+Assets/EasyTouch/Plugins/MovingJoystick.cs
+Assets/EasyTouch/Plugins/VirtualScreen.cs
+Assets/Resources/ParticleProps/Arrow/arrowControl.cs
+Assets/Resources/ParticleProps/csPoint/csPoint.cs
+Assets/Resources/ParticleProps/Efx_LvUp/Effects_02/AnimationSpeed.cs
+Assets/Resources/ParticleProps/Efx_LvUp/FollowTarget.cs
+Assets/Resources/ParticleProps/Elite/elite.cs
+Assets/Resources/ParticleProps/EnemySpawnEff/fireexp.cs
+Assets/Resources/ParticleProps/groundBrokeRed/DestroyForTime.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/EffectScriptSample.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcDetachObject.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcDisableDelayActive.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcDontActive.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectAniBehaviour.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcEffectBehaviour.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcRandomTimerTool.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcRepeatTimerTool.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcTimerTool.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NcTransformTool.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/Common/NsRenderManager.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcAddForce.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcAttachPrefab.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcAttachSound.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcAutoDestruct.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcBillboard.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcCurveAnimation.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcDelayActive.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcDetachParent.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcDuplicator.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcParticleSystem.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcRotation.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcSpriteAnimation.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcSpriteFactory.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcSpriteTexture.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcTilingTexture.cs
+Assets/Resources/ParticleProps/IGSoft_Resources/Scripts/NcEffect/NcUvAnimation.cs
+Assets/Resources/ParticleProps/SkillThunders/thunderDestory.cs
+Assets/Scripts/Control/BaseControl.cs
+Assets/Scripts/Control/Enemy/Ctrl_BaseEnemyProperty.cs
+Assets/Scripts/Control/Enemy/Ctrl_Enemy.cs
+Assets/Scripts/Control/Enemy/Ctrl_Warrior_AI.cs
+Assets/Scripts/Control/Enemy/Ctrl_Warrior_Animation.cs
+Assets/Scripts/Control/Enemy/Ctrl_WarriorProperty.cs
+Assets/Scripts/Control/Enemy/Ctrl_YellowWarriorProperty.cs
+Assets/Scripts/Control/Player/Ctrl_DisplayHero.cs
+Assets/Scripts/Control/Player/Ctrl_HeroAnimationCtrl.cs
+Assets/Scripts/Control/Player/Ctrl_HeroAttack.cs
+Assets/Scripts/Control/Player/Ctrl_HeroAttackInputByET.cs
+Assets/Scripts/Control/Player/Ctrl_HeroAttackInputByKey.cs
+Assets/Scripts/Control/Player/Ctrl_HeroMovingByET.cs
+Assets/Scripts/Control/Player/Ctrl_HeroMovingCtrlByKey.cs
+Assets/Scripts/Control/Player/Ctrl_HeroProperty.cs
+Assets/Scripts/Control/Prop/DestroyObjectByTime.cs
+Assets/Scripts/Control/Prop/MakeObjectRotation.cs
+Assets/Scripts/Control/Prop/RecoverObjectByTime.cs
+Assets/Scripts/Control/Prop/UI/Ctrl_MarketPanel.cs
+Assets/Scripts/Control/Prop/UI/Ctrl_MissionPanel.cs
+Assets/Scripts/Control/Scenes/Ctrl_LevelOneScenes.cs
+Assets/Scripts/Control/Scenes/Ctrl_LoadingScenes.cs
+Assets/Scripts/Control/Scenes/Ctrl_LoginScenes.cs
+Assets/Scripts/Control/Scenes/Ctrl_MainCityScenes.cs
+Assets/Scripts/Control/Scenes/Ctrl_StartScenes.cs
+Assets/Scripts/Global/ConvertEnumToString.cs
+Assets/Scripts/Global/DialogUIMgr.cs
+Assets/Scripts/Global/FadeInAndOut.cs
+Assets/Scripts/Global/GlobalParameter.cs
+Assets/Scripts/Global/GlobalParameterManager.cs
+Assets/Scripts/Global/SmallObjManager.cs
+Assets/Scripts/Global/UIMaskMgr.cs
+Assets/Scripts/Kernal/AudioManager.cs
+Assets/Scripts/Kernal/CameraFollow.cs
+Assets/Scripts/Kernal/Dialogs/DialogDataFormat.cs
+Assets/Scripts/Kernal/Dialogs/DialogDataMgr.cs
+Assets/Scripts/Kernal/Dialogs/XMLDialogDataAnalysisManager.cs
+Assets/Scripts/Kernal/EventTrrigerListener.cs
+Assets/Scripts/Kernal/Exception/XMLAnalysisException.cs
+Assets/Scripts/Kernal/iTween.cs
+Assets/Scripts/Kernal/KernalParameter.cs
+Assets/Scripts/Kernal/Logger/ConfigManager.cs
+Assets/Scripts/Kernal/Logger/IConfigManager.cs
+Assets/Scripts/Kernal/Logger/Log.cs
+Assets/Scripts/Kernal/PoolManager/PoolManager.cs
+Assets/Scripts/Kernal/PoolManager/Pools.cs
+Assets/Scripts/Kernal/ResourcesManager.cs
+Assets/Scripts/Kernal/Trriger/TrrigerCommonEvent.cs
+Assets/Scripts/Kernal/Trriger/TrrigerDisplayOrHide.cs
+Assets/Scripts/Kernal/UnityHelper.cs
+Assets/Scripts/Kernal/XmlOperation.cs
+Assets/Scripts/Model/Player/PlayerExternalData.cs
+Assets/Scripts/Model/Player/PlayerExternalDataProxy.cs
+Assets/Scripts/Model/Player/PlayerKernalData.cs
+Assets/Scripts/Model/Player/PlayerKernalDataProxy.cs
+Assets/Scripts/Model/Player/UpgradeRule.cs
+Assets/Scripts/Model/Prop/PlayerPackageData.cs
+Assets/Scripts/Model/Prop/PlayerPackageProxy.cs
+Assets/Scripts/Test/TestDialogInfo.cs
+Assets/Scripts/Test/TestDialogUI.cs
+Assets/Scripts/Test/TestModelLayout.cs
+Assets/Scripts/Test/TestPackageDrag.cs
+Assets/Scripts/View/Guide/GuideCursorMoving.cs
+Assets/Scripts/View/Guide/GuideMgr.cs
+Assets/Scripts/View/Guide/IGuideTrriger.cs
+Assets/Scripts/View/Guide/TrrigerDialogs.cs
+Assets/Scripts/View/Guide/TrrigerOperET.cs
+Assets/Scripts/View/Guide/TrrigerOperVirtualKey.cs
+Assets/Scripts/View/NPC/NPCDialogInMainCity.cs
+Assets/Scripts/View/Player/View_DisplayPlayerInfo.cs
+Assets/Scripts/View/Player/View_MainCity_PlayerInfo.cs
+Assets/Scripts/View/Player/View_PlayerInfoReseponse.cs
+Assets/Scripts/View/Prop/Package/Attack_Items.cs
+Assets/Scripts/View/Prop/Package/BasePackage.cs
+Assets/Scripts/View/Prop/Package/Defence_Items.cs
+Assets/Scripts/View/Prop/Package/Dexterity_Items.cs
+Assets/Scripts/View/Prop/Package/View_Package.cs
+Assets/Scripts/View/Prop/UI/View_ATKButtonCDEffect.cs
+Assets/Scripts/View/Prop/UI/View_ATKNormalPressed.cs
+Assets/Scripts/View/Prop/UI/View_MarketPanel.cs
+Assets/Scripts/View/Prop/UI/View_MissionPanel.cs
+Assets/Scripts/View/Prop/UI/View_SkillDetailInfo.cs
+Assets/Scripts/View/Scenes/View_LevelOneScene.cs
+Assets/Scripts/View/Scenes/View_LoadingScenes.cs
+Assets/Scripts/View/Scenes/View_LoginScenes.cs
+Assets/Scripts/View/Scenes/View_StartScenes.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/ActivateEffects.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/FollowTrackingCamera.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/HashIDs.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/HUDFPS.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/LoadScene.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/PlayerMovement.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/SwichCameras.cs
+Assets/VW_ActionRPG_AssetPack/Scripts/Tags.cs
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/BlurEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/ColorCorrectionEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/ContrastStretchEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/GlowEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/GrayscaleEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/ImageEffectBase.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/ImageEffects.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/MotionBlur.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/NoiseEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/SepiaToneEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/TwirlEffect.cs"
+"Assets/VW_ActionRPG_AssetPack/Standard Assets/Image Effects (Pro Only)/VortexEffect.cs"

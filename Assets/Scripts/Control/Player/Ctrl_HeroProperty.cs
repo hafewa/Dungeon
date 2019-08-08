@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 /*
@@ -33,6 +34,13 @@ public class Ctrl_HeroProperty : BaseControl
     public int Gold=0;
     public int Diamonds=0;
 
+    //背包系统道具数值
+    public int BloodBottleNum;
+    public int MagicBottleNum;
+    public int ATKNum;
+    public int DEFNum;
+    public int DEXNum;
+
     void Awake()
     {
         Instance = this;
@@ -46,6 +54,8 @@ public class Ctrl_HeroProperty : BaseControl
 
         PlayerExternalDataProxy playerExternalData = new PlayerExternalDataProxy(Exp, KillNum, Level,Gold, Diamonds);
 
+        PlayerPackageProxy playerPackageProxy=new PlayerPackageProxy(BloodBottleNum,MagicBottleNum,ATKNum,DEFNum,DEXNum);
+        
     }
 
     #region 生命数值操作（五个方法）
